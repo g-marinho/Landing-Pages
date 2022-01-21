@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Secular+One&display=swap');
+
+/* Resetando o CSS */
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+    background: linear-gradient(90deg, rgba(122,119,119,1) 0%, rgba(52,52,61,1) 22%, rgba(5,5,5,1) 100%);
+}
+
+.cabeçalho {
+    display: flex; /* utilizando o flexbox */
+    flex-direction: row; /* Colocando os elementos do cabeçalho em linha */
+    align-items: center;
+    justify-content: space-around; /*Ajustando a distância entre os itens*/
+    padding: 24px;
+}
+
+.cabeçalho-imagem {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+
+.cabeçalho-navbar {
+    display: flex;
+    gap: 32px; /*Separação entre os elementos do navbar*/
+}
+
+.cabeçalho-navbar-item {
+    font-family: 'Montserrat', sans-serif;
+    color: #ffd42c;
+    font-weight: 500;
+    font-size: 18px;
+    padding: 10px;
+}
+
+.cabeçalho-navbar-item:hover{
+    background-color: #ffd42c;
+    color: black;
+} 
+
+.conteudo {
+    border-top: 0.4px solid #ffd42c; /* marca o início do conteudo principal e que mostra a separaçao Header/Main */
+    margin-bottom: 48px; /* Desgruda o Main do Footer */ 
+}
+
+.conteudo-seçao-1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.conteudo-seçao-1-texto {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+
+.conteudo-seçao-1-texto-titulo {
+    font-family: 'Secular One', Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: 80px;
+    color: #ffd42c;
+}
+
+.conteudo-seçao-1-texto-subtitulo {
+    font-family: Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 50px;
+    color: aliceblue;
+}
+
+.conteudo-seçao-1-texto-botao {
+    display: block;
+    margin: 0 auto;
+    background-color: #ffd42c;
+    color: black;
+    width: 350px;
+    height: 75px;
+    border: none;
+    border-radius: 50px;
+    box-shadow: 5px 5px 15px 5px #050504;
+    font-family: 'Montserrat', Helvetica, sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+}
+
+.conteudo-seçao-1-texto-botao:hover {
+    background-color: green;
+    color: white;
+} 
+
+.conteudo-seçao-1-imagem-principal {
+    height: 430px;
+    margin-top: 30px;
+}
+
+.conteudo-seçao-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    margin-top: 48px;
+}
+
+.conteudo-seçao-2-titulo {
+    border-top: 0.4px solid white;
+    padding-top: 30px;
+    color: #ffd42c;
+    font-family: 'Montserrat', Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    margin-bottom: 16px; /* Adiciona mais uma leve distância entre o titulo e os paragrafos */
+}
+
+.conteudo-seçao-2-paragrafos {
+    font-family: Helvetica, sans-serif;
+    color: white;   
+}
+
+.rodape {
+    padding: 32px;
+    border-top: 0.4px solid black;
+    background-color: black;
+    color: #ffd42c;
+    font-style: bold;
+    font-weight: 600;
+    text-align: center;
+    
+}
