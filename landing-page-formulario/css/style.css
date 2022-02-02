@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+    background: linear-gradient(90deg, rgba(221,191,142,1) 0%, rgba(175,124,48,1) 100%, rgba(5,5,5,1) 100%);
+}
+
+.cabeçalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.cabeçalho-imagem {
+    width: 120px;
+    height: 120px;
+}
+
+.cabeçalho-texto {
+    font-family: "Inter", Helvetica, sans-serif;
+    font-size: 30px
+}
+
+.conteudo {
+    border-top: 0.4px solid sienna;
+    margin-bottom: 45px;;
+}
+
+.conteudo-seçao-1 {
+    display: flex;
+    flex-direction: row;
+    gap: 70px;
+    align-items: center;
+
+}
+
+.conteudo-seçao-1-texto {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    align-items: center
+}
+
+.conteudo-seçao-1-texto-titulo {
+    font-family: "Inter", Helvetica, sans-serif;
+    font-size: 36px;
+}
+
+.conteudo-seçao-1-texto-paragrafo {
+    font-family: Helvetica, sans-serif;
+    font-size: 14px;
+    width: 500px;
+}
+
+.conteudo-seçao-1-btnpreço{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+
+.conteudo-seçao-1-botao {
+    background: #43474a;
+    background-image: -webkit-linear-gradient(top, #43474a, #000000);
+    background-image: -moz-linear-gradient(top, #43474a, #000000);
+    background-image: -ms-linear-gradient(top, #43474a, #000000);
+    background-image: -o-linear-gradient(top, #43474a, #000000);
+    background-image: linear-gradient(to bottom, #43474a, #000000);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+
+.conteudo-seçao-1-botao:hover {
+    background: #3cb0fd;
+    background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+    text-decoration: none;
+}
+
+.conteudo-seçao-1-imagem {
+    width: 300px;
+    height: 300px;
+}
+
+.conteudo-seçao-1-formulario-grupo{
+    border: 0; /* retira a bordinha padrão que fica em volta do campo do formulário */
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+}
+
+.conteudo-seçao-1-formulario-grupo-campos {
+    width: 300px;
+    clear: both;
+}
+
+.conteudo-seçao-1-formulario-grupo-campos input {
+    border-radius: 20px;
+    height: 40px;
+    width: 100%;
+    clear: both;
+    margin-bottom: 30px;
+    background: gainsboro;
+    border-color: goldenrod;
+}
+
+.conteudo-seçao-1-formulario-grupo-campos input:focus{
+    background: white;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.conteudo-seçao-1-miniaturas {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.conteudo-seçao-1-miniaturas-img {
+    width: 80px;
+    height: 80px;
+}
+
+footer {
+    text-align: center;
+    font-size: 18px;
+}
