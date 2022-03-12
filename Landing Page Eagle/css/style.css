@@ -43,7 +43,7 @@ body {
 .cabeçalho-navbar-item:hover{
     background-color: #ffd42c;
     color: black;
-} 
+}
 
 .conteudo {
     border-top: 0.4px solid #ffd42c; /* marca o início do conteudo principal e que mostra a separaçao Header/Main */
@@ -122,7 +122,11 @@ body {
 
 .conteudo-seçao-2-paragrafos {
     font-family: Helvetica, sans-serif;
-    color: white;   
+    color: white;
+    text-align: left;
+    max-width: 550px;
+    margin: 0 auto 30px auto;
+    line-height: 1.5;
 }
 
 .rodape {
