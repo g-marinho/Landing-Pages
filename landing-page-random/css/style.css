@@ -106,7 +106,9 @@ strong {
     color: white;
     border-radius: 30px;
     border: none;
-    padding: 10px 60px;   
+    padding: 10px 60px;
+    margin-left: 10px;
+    
 }
 
 .conteudo-seçao-1-imagem-principal {
